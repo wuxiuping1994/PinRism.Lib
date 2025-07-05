@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.34928.147
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotOcrLib", "DotOcrLib\DotOcrLib.csproj", "{5C2F5ACF-FD7D-4EC0-85B0-AB7F04F2AEC9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotOcrAPI", "DotOcrAPI\DotOcrAPI.csproj", "{66BA2791-F567-4BCE-8925-5EE01F79FB7F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5C2F5ACF-FD7D-4EC0-85B0-AB7F04F2AEC9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5C2F5ACF-FD7D-4EC0-85B0-AB7F04F2AEC9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5C2F5ACF-FD7D-4EC0-85B0-AB7F04F2AEC9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5C2F5ACF-FD7D-4EC0-85B0-AB7F04F2AEC9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{66BA2791-F567-4BCE-8925-5EE01F79FB7F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{66BA2791-F567-4BCE-8925-5EE01F79FB7F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{66BA2791-F567-4BCE-8925-5EE01F79FB7F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{66BA2791-F567-4BCE-8925-5EE01F79FB7F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {EF39349D-7737-4AD5-B68C-C34E63CFCDE1}
+	EndGlobalSection
+EndGlobal

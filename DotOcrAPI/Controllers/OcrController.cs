@@ -1,10 +1,10 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-using DotOcrLib; // Namespace changed to match your project name
+using DotOcrLib;
 using System.IO;
 using System.Threading.Tasks;
 using Microsoft.Extensions.Logging;
 
-namespace DotOcrAPI.Controllers // Namespace changed to match your project name
+namespace DotOcrAPI.Controllers
 {
     [ApiController]
     [Route("api/[controller]")]
@@ -13,22 +13,12 @@ namespace DotOcrAPI.Controllers // Namespace changed to match your project name
         private readonly GeminiOcrService _ocrService;
         private readonly ILogger<OcrController> _logger;
 
-        /// <summary>
-        /// Initializes a new instance of the <see cref="OcrController"/> class.
-        /// </summary>
-        /// <param name="ocrService">The Gemini OCR service instance.</param>
-        /// <param name="logger">The logger instance.</param>
         public OcrController(GeminiOcrService ocrService, ILogger<OcrController> logger)
         {
             _ocrService = ocrService ?? throw new ArgumentNullException(nameof(ocrService));
             _logger = logger ?? throw new ArgumentNullException(nameof(logger));
         }
 
-        /// <summary>
-        /// Extracts text from an uploaded image.
-        /// </summary>
-        /// <param name="file">The image file to process.</param>
-        /// <returns>A string containing the extracted text.</returns>
         [HttpPost("extract-text")]
         [Consumes("multipart/form-data")]
         [Produces("text/plain")]
@@ -43,9 +33,6 @@ namespace DotOcrAPI.Controllers // Namespace changed to match your project name
                 return BadRequest("No file uploaded or file is empty.");
             }
 
-            // Basic MIME type validation
-            // Gemini API supports common image formats like image/jpeg, image/png, image/webp, image/heic, image/heif.
-            // You might want a more robust validation here.
             if (!file.ContentType.StartsWith("image/"))
             {
                 _logger.LogWarning("Unsupported file type uploaded: {ContentType}", file.ContentType);

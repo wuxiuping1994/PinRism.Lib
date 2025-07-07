@@ -5,8 +5,23 @@
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
   </PropertyGroup>
+	<PropertyGroup>
+	<PackageId>PinRism.OCR</PackageId>
+	<Version>1.0.0</Version>
+	<!-- Initial version -->
+	<Authors>Omared-1</Authors>
+	<Company>PinRism Labs </Company>
+	<Description>A .NET 8 library for Optical Character Recognition (OCR) using Google's Gemini API.</Description>
+	<PackageTags>OCR;Gemini;Google AI;Text Extraction;.NET API;Gemini api; OCRfree</PackageTags>
+	<GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+	<!-- Automatically generate package on build -->
+	<GenerateDocumentationFile>true</GenerateDocumentationFile>
+	<!-- Generate XML documentation for the library -->
+	<NoWarn>$(NoWarn);1591</NoWarn>
+	<!-- Suppress warnings for missing XML comments on public members -->
+	</PropertyGroup>
 
-  <ItemGroup>
+	<ItemGroup>
     <PackageReference Include="Microsoft.Extensions.Configuration.Abstractions" Version="9.0.6" />
     <PackageReference Include="Microsoft.Extensions.Logging.Abstractions" Version="9.0.6" />
     <PackageReference Include="System.Net.Http.Json" Version="9.0.6" />

@@ -283,7 +283,7 @@ The `ExtractTextFromImageAsync` method is designed to return `string.Empty` on m
 
 We welcome contributions! If you have suggestions, bug reports, or want to contribute code, please visit our GitHub repository:
 
-[https://github.com/PinRism-Labs/PinRism.OCR](https://www.google.com/url?sa=E&source=gmail&q=https://github.com/PinRism-Labs/PinRism.OCR) (Replace with your actual GitHub repo URL)
+[https://github.com/PinRism-Labs/PinRism.OCR](https://www.google.com/url?sa=E&source=gmail&q=https://github.com/PinRism-Labs/PinRism.OCR)
 
 ## License
 

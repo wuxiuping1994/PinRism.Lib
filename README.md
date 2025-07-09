@@ -1,7 +1,7 @@
 
 # PinRism.Lib - A .NET OCR Library powerd by Google Gemini
 
-`PinRism.Lib` is a lightweight and easy-to-use .NET 8 class library designed for Optical Character Recognition (OCR) by leveraging the power of Google's Gemini API. It allows you to extract text from images within your .NET applications with minimal setup.
+`PinRism.Lib` is a lightweight and easy-to-use .NET 8 class library designed for Optical Character Recognition (OCR) powered by Gemini API. It allows you to extract text from images within your .NET applications with minimal setup.
 
 ## Features
 
@@ -38,7 +38,7 @@ dotnet add package PinRism.Lib --version 1.0.0
 
 ## Getting Started
 
-### 1. Obtain Your Google Gemini API Key
+### 1. get Your Google Gemini API Key
 
 To use this library, you need a Google Gemini API key.
 

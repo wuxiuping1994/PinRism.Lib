@@ -8,23 +8,20 @@
 	<PropertyGroup>
 	<PackageId>PinRism.OCR</PackageId>
 	<Version>1.0.0</Version>
-	<!-- Initial version -->
 	<Authors>Omared-1</Authors>
 	<Company>PinRism Labs </Company>
-	<Description>A .NET 8 library for Optical Character Recognition (OCR) using Google's Gemini API.</Description>
-	<PackageTags>OCR;Gemini;Google AI;Text Extraction;.NET API;Gemini api; OCRfree</PackageTags>
+	<Description>A .NET 8 library for Optical Character Recognition (OCR) powerd by Google's Gemini API.</Description>
+	<PackageTags>OCR;Gemini;Google AI;Text Extraction;.NET API;Gemini api; OCRfree; Best ocr library; Ai OCR</PackageTags>
 	<GeneratePackageOnBuild>true</GeneratePackageOnBuild>
-	<!-- Automatically generate package on build -->
 	<GenerateDocumentationFile>true</GenerateDocumentationFile>
-	<!-- Generate XML documentation for the library -->
 	<NoWarn>$(NoWarn);1591</NoWarn>
-	<!-- Suppress warnings for missing XML comments on public members -->
 	</PropertyGroup>
 
 	<ItemGroup>
-    <PackageReference Include="Microsoft.Extensions.Configuration.Abstractions" Version="10.0.0-preview.5.25277.114" />
-    <PackageReference Include="Microsoft.Extensions.Logging.Abstractions" Version="10.0.0-preview.5.25277.114" />
-    <PackageReference Include="System.Net.Http.Json" Version="10.0.0-preview.5.25277.114" />
-  </ItemGroup>
+		<!-- Change these versions to 8.0.0 -->
+		<PackageReference Include="Microsoft.Extensions.Configuration.Abstractions" Version="8.0.0" />
+		<PackageReference Include="Microsoft.Extensions.Logging.Abstractions" Version="8.0.0" />
+		<PackageReference Include="System.Net.Http.Json" Version="8.0.0" />
+	</ItemGroup>
 	
 </Project>

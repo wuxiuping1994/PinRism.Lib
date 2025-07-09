@@ -6,10 +6,10 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 	<PropertyGroup>
-	<PackageId>PINRISM.OCR</PackageId>
+	<PackageId>PINRISM.Lib</PackageId>
 	<Version>1.0.0</Version>
 	<Authors>Omared-1</Authors>
-	<Company>PinRism Labs </Company>
+	<Company>PINRISM Labs </Company>
 	<Description>A .NET 8 library for Optical Character Recognition (OCR) powerd by Google's Gemini API.</Description>
 	<PackageTags>OCR;Gemini;Google AI;Text Extraction;.NET API;Gemini api; OCRfree; Best ocr library; Ai OCR</PackageTags>
 	<GeneratePackageOnBuild>true</GeneratePackageOnBuild>

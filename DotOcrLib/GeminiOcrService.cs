@@ -19,7 +19,7 @@ namespace PinRism.Lib
             _logger = logger ?? throw new ArgumentNullException(nameof(logger));
 
             _geminiApiKey = configuration["GeminiApiKey"] ??
-                            throw new InvalidOperationException("GeminiApiKey is not configured.");
+                            throw new InvalidOperationException("GeminiApiKey is not configured add a appsettings.json and use the api key.");
 
             _geminiApiUrl = $"https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key={_geminiApiKey}";
 

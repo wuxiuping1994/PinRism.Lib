@@ -7,7 +7,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\DotOcrLib\PinRism.Lib.csproj" />
+    <ProjectReference Include="..\PinRIsm-lib\PinRism.Lib.csproj" />
   </ItemGroup>
 	
 	<PropertyGroup>

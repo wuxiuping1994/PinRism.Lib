@@ -6,7 +6,7 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 	<PropertyGroup>
-	<PackageId>PinRism.OCR</PackageId>
+	<PackageId>PINRISM.OCR</PackageId>
 	<Version>1.0.0</Version>
 	<Authors>Omared-1</Authors>
 	<Company>PinRism Labs </Company>

@@ -1,7 +1,7 @@
 
-# PinRism.OCR - A .NET OCR Library powerd by Google Gemini
+# PinRism.Lib - A .NET OCR Library powerd by Google Gemini
 
-`PinRism.OCR` is a lightweight and easy-to-use .NET 8 class library designed for Optical Character Recognition (OCR) by leveraging the power of Google's Gemini API. It allows you to extract text from images within your .NET applications with minimal setup.
+`PinRism.Lib` is a lightweight and easy-to-use .NET 8 class library designed for Optical Character Recognition (OCR) by leveraging the power of Google's Gemini API. It allows you to extract text from images within your .NET applications with minimal setup.
 
 ## Features
 
@@ -18,12 +18,12 @@
 
 ## Installation
 
-You can install `PinRism.OCR` via NuGet Package Manager or the .NET CLI.
+You can install `PinRism.Lib` via NuGet Package Manager or the .NET CLI.
 
 **NuGet Package Manager:**
 
 ```
-Install-Package PinRism.OCR -Version 1.0.0
+Install-Package PinRism.Lib -Version 1.0.0
 
 ```
 
@@ -32,7 +32,7 @@ Install-Package PinRism.OCR -Version 1.0.0
 .NET CLI:**
 
 ```
-dotnet add package PinRism.OCR --version 1.0.0
+dotnet add package PinRism.Lib --version 1.0.0
 
 ```
 
@@ -61,7 +61,7 @@ Add the following to your `appsettings.json` file (or `appsettings.Development.j
   "Logging": {
     "LogLevel": {
       "Default": "Information",
-      "DotOcrLib": "Debug" // Optional: To see detailed logs from the library
+      "PinRism.Lib": "Debug" // Optional: To see detailed logs from the library
     }
   }
 }
@@ -76,7 +76,7 @@ Add the following to your `appsettings.json` file (or `appsettings.Development.j
 
 ```
 // Program.cs
-using DotOcrLib; // Using your library's namespace
+using PinRism.Lib; // Using your library's namespace
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.Logging;
 
@@ -119,7 +119,7 @@ app.Run();
 
 ```
 // Program.cs
-using DotOcrLib; // Using your library's namespace
+using PinRism.Lib; // Using your library's namespace
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
@@ -203,7 +203,7 @@ Once injected, you can use `GeminiOcrService` in your controllers, services, or 
 ```
 // Example: In an ASP.NET Core Controller
 using Microsoft.AspNetCore.Mvc;
-using DotOcrLib;
+using PinRism.Lib;
 using System.IO;
 using System.Threading.Tasks;
 using Microsoft.Extensions.Logging;
@@ -283,7 +283,7 @@ The `ExtractTextFromImageAsync` method is designed to return `string.Empty` on m
 
 We welcome contributions! If you have suggestions, bug reports, or want to contribute code, please visit our GitHub repository:
 
-[https://github.com/PinRism-Labs/PinRism.OCR](https://www.google.com/url?sa=E&source=gmail&q=https://github.com/PinRism-Labs/PinRism.OCR)
+[https://github.com/PinRism-Labs/PinRism.OCR](https://www.google.com/url?sa=E&source=gmail&q=https://github.com/PinRism-Labs/PinRism.Lib)
 
 ## License
 

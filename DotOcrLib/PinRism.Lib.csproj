@@ -6,7 +6,7 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 	<PropertyGroup>
-	<PackageId>PinRism.OCR</PackageId>
+	<PackageId>PINRISM.OCR</PackageId>
 	<Version>1.0.0</Version>
 	<!-- Initial version -->
 	<Authors>Omared-1</Authors>
@@ -22,9 +22,10 @@
 	</PropertyGroup>
 
 	<ItemGroup>
-    <PackageReference Include="Microsoft.Extensions.Configuration.Abstractions" Version="10.0.0-preview.5.25277.114" />
-    <PackageReference Include="Microsoft.Extensions.Logging.Abstractions" Version="10.0.0-preview.5.25277.114" />
-    <PackageReference Include="System.Net.Http.Json" Version="10.0.0-preview.5.25277.114" />
-  </ItemGroup>
+		<!-- Change these versions to 8.0.0 -->
+		<PackageReference Include="Microsoft.Extensions.Configuration.Abstractions" Version="8.0.0" />
+		<PackageReference Include="Microsoft.Extensions.Logging.Abstractions" Version="8.0.0" />
+		<PackageReference Include="System.Net.Http.Json" Version="8.0.0" />
+	</ItemGroup>
 	
 </Project>

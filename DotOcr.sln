@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.10.34928.147
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PinRism.Lib", "DotOcrLib\PinRism.Lib.csproj", "{5C2F5ACF-FD7D-4EC0-85B0-AB7F04F2AEC9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PinRIsm-lib", "DotOcrLib\PinRism.Lib.csproj", "{5C2F5ACF-FD7D-4EC0-85B0-AB7F04F2AEC9}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DotOcrAPI", "DotOcrAPI\DotOcrAPI.csproj", "{66BA2791-F567-4BCE-8925-5EE01F79FB7F}"
 EndProject

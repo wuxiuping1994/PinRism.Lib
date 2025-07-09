@@ -1,5 +1,5 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-using DotOcrLib;
+using PinRism.Lib;
 using System.IO;
 using System.Threading.Tasks;
 using Microsoft.Extensions.Logging;

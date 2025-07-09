@@ -4,7 +4,7 @@ using System.Text.Json.Serialization;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.Logging;
 
-namespace DotOcrLib
+namespace PinRism.Lib
 {
     public class GeminiOcrService
     {

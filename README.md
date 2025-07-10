@@ -35,12 +35,12 @@
 
 ## Installation
 
-You can install `PinRism.Lib` via NuGet Package Manager or the .NET CLI.
+You can install `PinRism.OCR` via NuGet Package Manager or the .NET CLI.
 
 **NuGet Package Manager:**
 
 ```
-Install-Package PinRism.Lib -Version 1.0.0
+Install-Package PinRism.OCR -Version 1.0.0
 
 ```
 
@@ -49,7 +49,7 @@ Install-Package PinRism.Lib -Version 1.0.0
 .NET CLI:**
 
 ```
-dotnet add package PinRism.Lib --version 1.0.0
+dotnet add package PinRism.OCR --version 1.0.0
 
 ```
 

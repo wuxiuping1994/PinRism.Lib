@@ -1,7 +1,7 @@
 
 # PinRism.Lib - A .NET OCR Library powerd by Google Gemini
 
-`PinRism.Lib` is a lightweight and easy-to-use .NET 8 class library designed for Optical Character Recognition (OCR) by leveraging the power of Google's Gemini API. It allows you to extract text from images within your .NET applications with minimal setup.
+`PinRism.Lib` is a lightweight and easy-to-use .NET 8 class library designed for Optical Character Recognition (OCR) powered by Gemini API. It allows you to extract text from images within your .NET applications with minimal setup.
 
 ## Features
 
@@ -14,16 +14,33 @@
 -   **Base64 Image Handling:** Automatically handles the conversion of image byte arrays to base64 for Gemini API requests.
     
 -   **Error Logging:** Integrates with `Microsoft.Extensions.Logging` for comprehensive error and information logging.
+
+  > ⚠️ **Disclaimer**
+>
+> To ensure the project works correctly, please make sure to install the following NuGet packages **in version `8.0.0`**:
+>
+> - `Microsoft.Extensions.Configuration.Abstractions`
+> - `Microsoft.Extensions.Logging.Abstractions`
+> - `System.Net.Http.Json`
+>
+> You can install them via the Package Manager Console:
+>
+> ```bash
+> dotnet add package Microsoft.Extensions.Configuration.Abstractions --version 8.0.0
+> dotnet add package Microsoft.Extensions.Logging.Abstractions --version 8.0.0
+> dotnet add package System.Net.Http.Json --version 8.0.0
+> ```
+
     
 
 ## Installation
 
-You can install `PinRism.Lib` via NuGet Package Manager or the .NET CLI.
+You can install `PinRism.OCR` via NuGet Package Manager or the .NET CLI.
 
 **NuGet Package Manager:**
 
 ```
-Install-Package PinRism.Lib -Version 1.0.0
+Install-Package PinRism.OCR -Version 1.0.0
 
 ```
 
@@ -32,13 +49,13 @@ Install-Package PinRism.Lib -Version 1.0.0
 .NET CLI:**
 
 ```
-dotnet add package PinRism.Lib --version 1.0.0
+dotnet add package PinRism.OCR --version 1.0.0
 
 ```
 
 ## Getting Started
 
-### 1. Obtain Your Google Gemini API Key
+### 1. get Your Google Gemini API Key
 
 To use this library, you need a Google Gemini API key.
 
@@ -279,15 +296,7 @@ The primary service for OCR operations.
 
 The `ExtractTextFromImageAsync` method is designed to return `string.Empty` on most errors (e.g., API key issues, network problems, no text found). Detailed error messages are logged using `Microsoft.Extensions.Logging`. Monitor your application's logs for more insights into any issues during OCR processing.
 
-## Contributing
 
-We welcome contributions! If you have suggestions, bug reports, or want to contribute code, please visit our GitHub repository:
-
-[https://github.com/PinRism-Labs/PinRism.OCR](https://www.google.com/url?sa=E&source=gmail&q=https://github.com/PinRism-Labs/PinRism.Lib)
-
-## License
-
-This project is licensed under the [MIT License]
 
 ## Support
 

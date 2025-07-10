@@ -12,7 +12,7 @@ namespace PinRism.Lib
         private readonly ILogger<GeminiOcrService> _logger;
         private readonly string _geminiApiKey;
         private readonly string _geminiApiUrl;
-
+        // Establish a connection to the Gemini API using HTTPClient 
         public GeminiOcrService(HttpClient httpClient, IConfiguration configuration, ILogger<GeminiOcrService> logger)
         {
             _httpClient = httpClient ?? throw new ArgumentNullException(nameof(httpClient));
@@ -25,7 +25,7 @@ namespace PinRism.Lib
 
             _logger.LogInformation("GeminiOcrService initialized with API URL: {ApiUrl}", _geminiApiUrl);
         }
-
+        // Sends image data to Gemini API and returns the extracted text also it handles the image data .
         public async Task<string> ExtractTextFromImageAsync(byte[] imageData, string mimeType)
         {
             if (imageData == null || imageData.Length == 0)

@@ -5,6 +5,7 @@ using System.Text;
 using System.Text.Json.Serialization;
 using System.Threading.Tasks;
 
+// define the API Class
 namespace PinRism.Lib
 {
     public class GeminiApiResponse

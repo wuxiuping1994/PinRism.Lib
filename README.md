@@ -279,15 +279,7 @@ The primary service for OCR operations.
 
 The `ExtractTextFromImageAsync` method is designed to return `string.Empty` on most errors (e.g., API key issues, network problems, no text found). Detailed error messages are logged using `Microsoft.Extensions.Logging`. Monitor your application's logs for more insights into any issues during OCR processing.
 
-## Contributing
 
-We welcome contributions! If you have suggestions, bug reports, or want to contribute code, please visit our GitHub repository:
-
-[https://github.com/PinRism-Labs/PinRism.OCR](https://www.google.com/url?sa=E&source=gmail&q=https://github.com/PinRism-Labs/PinRism.Lib)
-
-## License
-
-This project is licensed under the [MIT License]
 
 ## Support
 

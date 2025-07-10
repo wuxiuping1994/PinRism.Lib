@@ -14,6 +14,23 @@
 -   **Base64 Image Handling:** Automatically handles the conversion of image byte arrays to base64 for Gemini API requests.
     
 -   **Error Logging:** Integrates with `Microsoft.Extensions.Logging` for comprehensive error and information logging.
+
+  > ⚠️ **Disclaimer**
+>
+> To ensure the project works correctly, please make sure to install the following NuGet packages **in version `8.0.0`**:
+>
+> - `Microsoft.Extensions.Configuration.Abstractions`
+> - `Microsoft.Extensions.Logging.Abstractions`
+> - `System.Net.Http.Json`
+>
+> You can install them via the Package Manager Console:
+>
+> ```bash
+> dotnet add package Microsoft.Extensions.Configuration.Abstractions --version 8.0.0
+> dotnet add package Microsoft.Extensions.Logging.Abstractions --version 8.0.0
+> dotnet add package System.Net.Http.Json --version 8.0.0
+> ```
+
     
 
 ## Installation
